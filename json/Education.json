@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Literate_without_educational",
+    "value": 35153231
+  },
+  {
+    "name": "Below_Primary",
+    "value": 146897597
+  },
+  {
+    "name": "Primary",
+    "value": 184170833
+  },
+  {
+    "name": "Middle",
+    "value": 133903266
+  },
+  {
+    "name": "Matric_Secondary",
+    "value": 105939743
+  },
+  {
+    "name": "Higher_secondary_Senior_secondary",
+    "value": 77942593
+  },
+  {
+    "name": "Non_technical_diploma_degree",
+    "value": 1072289
+  },
+  {
+    "name": " Technical_diploma",
+    "value": 7238719
+  },
+  {
+    "name": "Graduate_above",
+    "value": 68288971
+  },
+  {
+    "name": "Unclassified",
+    "value": 3031570
+  }
+]

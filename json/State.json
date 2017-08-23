@@ -1,211 +1,176 @@
 [
   {
     "AreaName": "State - JAMMU & KASHMIR",
-    "Graduatepopulation": 653764,
     "Graduate_Male": 401279,
     "Graduate_Female": 252485
   },
   {
     "AreaName": "State - HIMACHAL PRADESH",
-    "Graduatepopulation": 446609,
     "Graduate_Male": 251164,
     "Graduate_Female": 195445
   },
   {
     "AreaName": "State - PUNJAB",
-    "Graduatepopulation": 1760846,
     "Graduate_Male": 873776,
     "Graduate_Female": 887070
   },
   {
     "AreaName": "State - CHANDIGARH",
-    "Graduatepopulation": 194453,
     "Graduate_Male": 104748,
     "Graduate_Female": 89705
   },
   {
     "AreaName": "State - UTTARAKHAND",
-    "Graduatepopulation": 910288,
     "Graduate_Male": 512068,
     "Graduate_Female": 398220
   },
   {
     "AreaName": "State - HARYANA",
-    "Graduatepopulation": 1877085,
     "Graduate_Male": 1102809,
     "Graduate_Female": 774276
   },
   {
     "AreaName": "State - NCT OF DELHI",
-    "Graduatepopulation": 2757844,
     "Graduate_Male": 1535972,
     "Graduate_Female": 1221872
   },
   {
     "AreaName": "State - RAJASTHAN",
-    "Graduatepopulation": 3063282,
     "Graduate_Male": 2086247,
     "Graduate_Female": 977035
   },
   {
     "AreaName": "State - UTTAR PRADESH",
-    "Graduatepopulation": 9919838,
     "Graduate_Male": 6378138,
     "Graduate_Female": 3541700
   },
   {
     "AreaName": "State - BIHAR",
-    "Graduatepopulation": 3061676,
     "Graduate_Male": 2326092,
     "Graduate_Female": 735584
   },
   {
     "AreaName": "State - SIKKIM",
-    "Graduatepopulation": 32669,
     "Graduate_Male": 19290,
     "Graduate_Female": 13379
   },
   {
     "AreaName": "State - ARUNACHAL PRADESH",
-    "Graduatepopulation": 53606,
     "Graduate_Male": 36430,
     "Graduate_Female": 17176
   },
   {
     "AreaName": "State - NAGALAND",
-    "Graduatepopulation": 89718,
     "Graduate_Male": 53023,
     "Graduate_Female": 36695
   },
   {
     "AreaName": "State - MANIPUR",
-    "Graduatepopulation": 225620,
     "Graduate_Male": 135082,
     "Graduate_Female": 90538
   },
   {
     "AreaName": "State - MIZORAM",
-    "Graduatepopulation": 49621,
     "Graduate_Male": 29527,
     "Graduate_Female": 20094
   },
   {
     "AreaName": "State - TRIPURA",
-    "Graduatepopulation": 137812,
     "Graduate_Male": 88621,
     "Graduate_Female": 49191
   },
   {
     "AreaName": "State - MEGHALAYA",
-    "Graduatepopulation": 90519,
     "Graduate_Male": 46311,
     "Graduate_Female": 44208
   },
   {
     "AreaName": "State - ASSAM",
-    "Graduatepopulation": 1011345,
     "Graduate_Male": 639241,
     "Graduate_Female": 372104
   },
   {
     "AreaName": "State - WEST BENGAL",
-    "Graduatepopulation": 4827817,
     "Graduate_Male": 3088673,
     "Graduate_Female": 1739144
   },
   {
     "AreaName": "State - JHARKHAND",
-    "Graduatepopulation": 1328477,
     "Graduate_Male": 906174,
     "Graduate_Female": 422303
   },
   {
     "AreaName": "State - ODISHA",
-    "Graduatepopulation": 1783797,
     "Graduate_Male": 1174184,
     "Graduate_Female": 609613
   },
   {
     "AreaName": "State - CHHATTISGARH",
-    "Graduatepopulation": 1018853,
     "Graduate_Male": 659081,
     "Graduate_Female": 359772
   },
   {
     "AreaName": "State - MADHYA PRADESH",
-    "Graduatepopulation": 3222802,
     "Graduate_Male": 2051127,
     "Graduate_Female": 1171675
   },
   {
     "AreaName": "State - GUJARAT",
-    "Graduatepopulation": 3174158,
     "Graduate_Male": 1891932,
     "Graduate_Female": 1282226
   },
   {
     "AreaName": "State - DAMAN & DIU",
-    "Graduatepopulation": 12802,
     "Graduate_Male": 8425,
     "Graduate_Female": 4377
   },
   {
     "AreaName": "State - DADRA & NAGAR HAVELI",
-    "Graduatepopulation": 19174,
     "Graduate_Male": 12227,
     "Graduate_Female": 6947
   },
   {
     "AreaName": "State - MAHARASHTRA",
-    "Graduatepopulation": 8639081,
     "Graduate_Male": 5167671,
     "Graduate_Female": 3471410
   },
   {
     "AreaName": "State - ANDHRA PRADESH",
-    "Graduatepopulation": 5577387,
     "Graduate_Male": 3632622,
     "Graduate_Female": 1944765
   },
   {
     "AreaName": "State - KARNATAKA",
-    "Graduatepopulation": 4043647,
     "Graduate_Male": 2489209,
     "Graduate_Female": 1554438
   },
   {
     "AreaName": "State - GOA",
-    "Graduatepopulation": 146828,
     "Graduate_Male": 74077,
     "Graduate_Female": 72751
   },
   {
     "AreaName": "State - LAKSHADWEEP",
-    "Graduatepopulation": 2302,
     "Graduate_Male": 1458,
     "Graduate_Female": 844
   },
   {
     "AreaName": "State - KERALA",
-    "Graduatepopulation": 2531321,
     "Graduate_Male": 1131336,
     "Graduate_Female": 1399985
   },
   {
     "AreaName": "State - TAMIL NADU",
-    "Graduatepopulation": 5457742,
     "Graduate_Male": 3119342,
     "Graduate_Female": 2338400
   },
   {
     "AreaName": "State - PUDUCHERRY",
-    "Graduatepopulation": 142029,
     "Graduate_Male": 79482,
     "Graduate_Female": 62547
   },
   {
     "AreaName": "State - ANDAMAN & NICOBAR ISLANDS",
-    "Graduatepopulation": 24159,
     "Graduate_Male": 13622,
     "Graduate_Female": 10537
   }
