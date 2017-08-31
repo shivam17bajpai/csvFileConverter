@@ -1,0 +1,4 @@
+This is a project based on javascript.
+ In this we write a program that creates three Json files (age,state,education).
+Three html files thate makes the d3 graph of the created json files respectively.
+css and javascript of html files agre in js and css folder respectively.
