@@ -5,11 +5,12 @@ var result = [],
     statearray = [];
 var fs = require("fs");
 var lineReader = require('readline').createInterface({
-    input: require('fs').createReadStream('India2011.csv')
+    input: require('fs').createReadStream('../csv/India2011.csv')
 });
-var myWriteStream = require("fs").createWriteStream("json/Age.json")
-var myWriteStreamstate = require("fs").createWriteStream("json/State.json")
-var myWriteStreameducation = require("fs").createWriteStream("json/Education.json")
+    //json file named 
+var myWriteStream = require("fs").createWriteStream("../json/Age.json")
+var myWriteStreamstate = require("fs").createWriteStream("../json/State.json")
+var myWriteStreameducation = require("fs").createWriteStream("../json/Education.json")
 //For Age-wise population distribution in terms of literate population (first json)
 lineReader.on('line', function(line) {
     var jsonFromLine = {};

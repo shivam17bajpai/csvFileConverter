@@ -1,70 +1,4 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-.axis text {
-    font: 10px sans-serif;
-}
-
-.axis line,
-.axis path {
-    fill: none;
-    stroke: #000;
-    shape-rendering: crispEdges;
-}
-
-.axis--x path {
-    display: none;
-}
-
-.path-line {
-    fill: none;
-    stroke: yellow;
-    stroke-width: 1.5px;
-}
-.d3-tip {
-    line-height: 1;
-    font-weight: bold;
-    padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 2px;
-}
-
-
-/* Creates a small triangle extender for the tooltip */
-
-.d3-tip:after {
-    box-sizing: border-box;
-    display: inline;
-    font-size: 20px;
-    width: 100%;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.8);
-    content: "\25BC";
-    position: absolute;
-    text-align: center;
-}
-
-
-/* Style northward tooltips differently */
-
-.d3-tip.n:after {
-    margin: -1px 0 0 0;
-    top: 100%;
-    left: 0;
-}
-
-svg {
-    background: #f0f0f0;
-}
-</style>
-
-<body>
-  <h1 class='heading'> Graduate Population of India - State-wise & Gender-wise.</h1>
-    <div id='stacked-bar'></div>
-    <script src="//d3js.org/d3.v4.min.js"></script>
-    <script>
-    var initStackedBarChart = {
+ var initStackedBarChart = {
         draw: function(config) {
             me = this,
                 domEle = config.element,
@@ -79,6 +13,7 @@ svg {
                 color = d3.scaleOrdinal(d3.schemeCategory20),
                 xAxis = d3.axisBottom(xScale),
                 yAxis = d3.axisLeft(yScale),
+
                 svg = d3.select("#" + domEle).append("svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
@@ -90,6 +25,7 @@ svg {
                 .offset(d3.stackOffsetNone);
             var layers = stack(data);
             // data.sort(function(a, b) { return b.total - a.total; });
+
             xScale.domain(data.map(function(d) { return (d.AreaName); }));
             yScale.domain([0, d3.max(layers[layers.length - 1], function(d) { return d[0] + d[1]; })]).nice();
             var layer = svg.selectAll(".layer")
@@ -118,23 +54,12 @@ svg {
                 .attr("transform", "translate(0,0)")
                 .call(yAxis);
 
-              var tip = d3.tip()
-        .attr('class', 'd3-tip')
-        .offset([-10, 0])
-        .html(function(d) {
-            return "<strong> Literate: </strong> <span style='color:red'>" + d.value + "</span>";
-        })
-    var svg = d3.select("body").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-    svg.call(tip);
 
         }
     }
+
     var key = ["Graduate_Male", "Graduate_Female"];
-    var data1 = d3.json("json/State.json", function(error, jsonData) {
+    var data1 = d3.json("../json/State.json", function(error, jsonData) {
         if (error) throw error;
         // trigger render
         data1 = jsonData;
@@ -144,4 +69,3 @@ svg {
             element: 'stacked-bar'
         });
     });
-    </script>

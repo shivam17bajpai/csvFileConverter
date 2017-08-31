@@ -1,69 +1,4 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-body {
-    font: 12px sans-serif;
-    margin-left: 5%;
-}
-
-.axis path,
-.axis line {
-    fill: none;
-    stroke: #000;
-    shape-rendering: crispEdges;
-}
-
-.bar {
-    fill: red;
-}
-
-.bar:hover {
-    fill: orange;
-}
-
-.x.axis path {
-    display: none;
-}
-
-.d3-tip {
-    line-height: 1;
-    font-weight: bold;
-    padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 2px;
-}
-
-
-/* Creates a small triangle extender for the tooltip */
-
-.d3-tip:after {
-    box-sizing: border-box;
-    display: inline;
-    font-size: 10px;
-    width: 100%;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.8);
-    content: "\25BC";
-    position: absolute;
-    text-align: center;
-}
-
-/* Style northward tooltips differently */
-
-.d3-tip.n:after {
-    margin: -1px 0 0 0;
-    top: 100%;
-    left: 0;
-}
-</style>
-
-<body>
-<h1 class='heading'>Age-wise population distribution in terms of literate population</h1>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-    <script>
-    var margin = { top: 40, right: 70, bottom: 100, left: 95 },
+var margin = { top: 40, right: 70, bottom: 100, left: 95 },
         width = 1200 - margin.left  -margin.right  ,
         height = 600 - margin.top - margin.bottom;
     var formatPercent = d3.format("");
@@ -124,5 +59,3 @@ body {
             .on('mouseover', tip.show)
             .on('mouseout', tip.hide)
     });
-    </script>
-    </body>
